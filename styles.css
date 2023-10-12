@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
 
   body {
-      font-family: 'Pixelify Sans', sans-serif;
+      font-family: 'Pixelify Sans', normal;
       background-color: #b2c2cf; /* This is a light blue-gray color. */
   }
 </style>
