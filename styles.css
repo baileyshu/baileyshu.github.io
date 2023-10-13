@@ -3,4 +3,8 @@
   body {
       font-family: 'Pixelify Sans', sans-serif !important;
       background-color: #b2c2cf; /* This is a light blue-gray color. */
+
   }
+img {
+    width: 300px;
+}
