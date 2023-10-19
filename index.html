@@ -20,10 +20,6 @@
             margin: 0;
         }
 
-        .first-image {
-            max-width: 50%;
-            height: auto;
-        }
 
         button {
             font-size: 16px;
@@ -37,19 +33,35 @@
             transform: scale(1.05);
             transition: ease-in-out;
         }
+        .center-container{
+            position: relative;
+            width: 30%
+            height: 30%;
+        }
+        .insta-button {
+            position: absolute;
+            left: 40%;
+            top: 25%;
+        }
+
+        .centered-image{
+            height:auto;
+            width: 400px;
+            position: relative;
+        }
 
     </style>
 </head>
 <body>
-
     <h1>welcome</h1>
-    <p></p>
-
-    <a href="https://www.instagram.com/baileyshumate/" target="_blank">
-        <button>
+    <div class="center-container">
+    <img src="baileyshumate/border.png" alt="A description" class="centered-image">
+        <a href="https://www.instagram.com/baileyshumate/" target="_blank">
+        <button class="insta-button">
             <span class="icon"><i class="fab fa-instagram fa-3x"></i></span>
         </button>
     </a>
+</div>
 
 </body>
 </html>

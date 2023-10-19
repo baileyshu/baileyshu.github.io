@@ -3,7 +3,19 @@
   body {
       font-family: 'Pixelify Sans', sans-serif !important;
       background-color: #b2c2cf;/* This is a light blue-gray color. */
-  }
+  .center-container {
+    display: flex;
+    justify-content: center; /* aligns items horizontally to the center */
+    align-items: center;     /* aligns items vertically to the center */
+    height: 100vh;           /* 100% of the viewport height */
+}
+
+.centered-image {
+    max-width: 80%; /* optional, to ensure the image doesn't take up the full width */
+    max-height: 80%; /* optional, to ensure the image doesn't take up the full height */
+}
+
+}
 
   .first-image
   {max-width: 50%;
